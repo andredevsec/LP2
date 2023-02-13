@@ -10,7 +10,7 @@ public class ex14 {
         String palavra = scan.next();
         for(int i=0; i<palavra.length(); i++){
             for(int n=1; n<=palavra.length(); n++){
-                if(palavra.substring(i, n).equals("a")){
+                if(palavra.substring(i, n).equals("a") || palavra.substring(i, n).equals("A")){
                     cont++;                
                 }
             }
